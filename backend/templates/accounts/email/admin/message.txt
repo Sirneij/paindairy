@@ -1,0 +1,16 @@
+{% autoescape off %}
+    Hello Administrator,
+        A {% if not is_stake %}new client {% else %}new doctor{% endif %} with the following credentials was created:
+        Full name: {{ full_name }},
+        Username: {{ username }},
+        Email Address: {{ email }}.
+        {% if is_stake %}
+        Qualification: {{ qualification }}.
+        Brief Biography: {{ biography }}.
+        {% else %}
+        Meter ID: {{ meter_id }}
+        {% endif %}
+    {% if is_stake %}
+        Kindly log on to your admin pannel to critically examine this application for approval.
+    {% endif %}
+{% endautoescape %}

@@ -1,0 +1,5 @@
+{% if not is_stake %}
+New user created
+{% else %}
+New doctor application
+{% endif %}

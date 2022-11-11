@@ -1,0 +1,11 @@
+{% autoescape off %}
+
+Dear Administrator:
+
+    A user of your application ({{ frontend_app }}) has sent a contact us message with the following details:
+
+    User's Full Name: {{ full_name }}
+    User's Email Address: {{ user_email }}
+    Message content: {{ message_content }}
+
+{% endautoescape %}

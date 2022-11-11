@@ -1,0 +1,11 @@
+{% autoescape off %}
+Dear {{ fullname }},
+    Thank you for the actionable interest displayed to join us as a
+    Doctor.
+    
+    
+    We specifically sent this mail to inform you that your application has been received. Further actions shall be communicated in due course. In the meantime, you are restricted from accessing the platform as your account is currently deactivated until we fully appraise your application. Kindly bear with us.
+               
+
+PainDairy Principal Researcher.
+{% endautoescape %}
